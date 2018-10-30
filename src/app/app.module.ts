@@ -18,6 +18,7 @@ import {
 import { EditorComponent } from './editor/editor.component';
 
 const appRoutes: Routes = [
+  { path: '**', redirectTo: 'editor' },
   { path: 'editor', component: EditorComponent }
 ];
 

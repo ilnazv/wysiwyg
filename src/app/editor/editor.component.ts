@@ -24,7 +24,7 @@ export class EditorComponent implements OnInit {
 
   reload() {
     this.cells = [];
-    for (let index = 0; index < 100; index++) {
+    for (let index = 0; index < 50; index++) {
       this.cells.push(new Cell(index));
     }
   }
