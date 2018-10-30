@@ -1,0 +1,4 @@
+<mat-button-toggle-group multiple fxLayout="row wrap" fxLayoutAlign="start start">
+  <mat-button-toggle class="editor-button-toggle" *ngFor="let cell of cells" cdkDrag></mat-button-toggle>
+</mat-button-toggle-group>
+<button mat-button (click)="reload()">Reload</button>
